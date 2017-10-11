@@ -1,15 +1,19 @@
-function Haiku(line1,line2,line3) {
-  this.line1 = line1;
-  this.line2 = line2;
-  this.line3 = line3;
-}
+export class Haiku {
+  constructor(line1,line2,line3) {
+    this.line1 = line1;
+    this.line2 = line2;
+    this.line3 = line3;
+  }
+
 
 // Will want to look for newlines "/n"
 //if "/n" !== 2, return "this is not a haiku"
 
 // Might need to revise arguments/parameters --> the above one is supposed to be "constructorParameter"; wherease the prototype argument is supposed to be the "methodParameter." review page "https://www.learnhowtoprogram.com/javascript/introduction-to-javascript/object-oriented-javascript-with-node-modules"
 
-Haiku.prototype.haikuReview = function(line1,line2,line3) {
+checkType() {
+  //Function body goes here.
+  // checktype is replacing this: Haiku.prototype.haikuReview = function(line1,line2,line3) {
   let syllable = 0;
   let output = [];
   const vowel = ["a","e","i","o","u","y"];
@@ -40,4 +44,7 @@ Haiku.prototype.haikuReview = function(line1,line2,line3) {
   }
 };
 
-exports.haikuModule = Haiku;
+// I want the final product (if the input is a haiku) to look like this:
+// const multiLineString = `${line1}
+// ${line2}
+// ${line3}`

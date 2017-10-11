@@ -1,4 +1,4 @@
-var Haiku = require('./../js/haikureview.js').haikuModule;
+import { Haiku }  from ('./../js/haikureview.js');
 
 $(document).ready(function() {
   // $('haiku-form').submit(function(event) {
