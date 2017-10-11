@@ -1,0 +1,19 @@
+{
+  "name": "haiku-review",
+  "version": "1.0.0",
+  "description": "App reviews if text can be a haiku",
+  "main": "index.html",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacKLess/haiku-review.git"
+  },
+  "author": "L. Devin MacKrel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MacKLess/haiku-review/issues"
+  },
+  "homepage": "https://github.com/MacKLess/haiku-review#readme"
+}
