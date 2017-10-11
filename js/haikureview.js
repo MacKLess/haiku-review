@@ -12,30 +12,32 @@ function Haiku(line1,line2,line3) {
 Haiku.prototype.haikuReview = function(line1,line2,line3) {
   let syllable = 0;
   let output = [];
-  const vowel = ["a","e","i","o","u","y"]
+  const vowel = ["a","e","i","o","u","y"];
   for (let i = 1; i <= line1; i++) {
     if (i != vowel) {
       output.push(i);
     } else {
-      if i-1 === vowel
+      if (i-1 === vowel) {
         output.push(i);
-      else if i+1 === vowel
+      } else if (i+1 === vowel) {
         output.push(i);
-        syllable +1;
-      else if i+1 === "e"
+        syllable +=1;
+      } else if (i+1 === "e") {
         output.push(i);
-      else { i+1 != vowel
+      } else if (i+1 != vowel) {
         output.push(i);
-        syllable +1;
+        syllable +=1;
+      } else {
+        output.push(i);
       }
     }
   }
   if (syllable != 17) {
-    return "This is not a haiku."
+    return "This is not a haiku.";
   }
   else {
     return output1; //This will require additional work
   }
-}
+};
 
 exports.haikuModule = Haiku;
