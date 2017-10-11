@@ -1,0 +1,22 @@
+{
+  "name": "haiku-review",
+  "description": "App reviews if text can be a haiku",
+  "main": "index.html",
+  "authors": [
+    "L. Devin MacKrel"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.19.0"
+  }
+}
