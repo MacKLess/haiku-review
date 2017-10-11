@@ -12,15 +12,37 @@
       <h1>Do You Haiku?</h1>
       <p>Do you want to know if your poem is a haiku? Well, now you can! Just enter your poem in the form, and we'll let you know if you have a haiku.
       <h3>Note on form:</h3>
-      The philosophy of the haiku is simplicity and brevity and therefore, traditionally haikus do not have titles.</p>
+      <ul>
+        <li>The philosophy of the haiku is simplicity and brevity and therefore, traditionally haikus do not have titles.</li>
+        <li>Haikus consist of 17 syllables and 3 lines in the following format:</li>
+        <ul>
+          <li>The first line has 5 syllables</li>
+          <li>The second line has 7 syllables</li>
+          <li>The third line has 5 syllables</li>
+        </ul>
+      </ul>
+      </p>
       <form id="haiku-form">
         <div class="form-group">
-          <label for="poem">Enter your poem:</label>
-          <input id="poem" type="text">
+          <div class="haiku-line1">
+            <label for="line1">Enter your fist line:</label>
+            <input id="line1" type="text">
+          </div>
+          <div class="haiku-line2">
+            <label for="line2">Enter your second line:</label>
+            <input id="line2" type="text">
+          </div>
+          <div class="haiku-line3">
+            <label for="line3">Enter your third line:</label>
+            <input id="line3" type="text">
+          </div>
           <button class="btn-success" type="submit">Submit</button>
         </div>
       </form>
-      <p id="output"></p>
+      <p id="output1"></p>
+      <!-- Do I put an if else statment here or backend?
+      <p id="output2"></p>
+      <p id="output3"></p> -->
     </div>
   </body>
 </html>

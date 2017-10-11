@@ -20,7 +20,7 @@ _An app that determines whether an inputted poem is a haiku. If it meets the hai
 
 ## Specifications
 
-* _The app will count the number of syllables._
+* _All non-alphameric characters are ignored (1,2,.,",!,-...)._
 * _All vowels in the input will be counted._
 * _If an "e" ends a word, it will not be counted._
 * _When a vowel follows another vowel in a word, it will not be counted._
