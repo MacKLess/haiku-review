@@ -11,15 +11,11 @@ export class Line {
       let x = lineText.charAt(i);
       if (vowels.indexOf(x) >= 0) {
         syllable +=1;
-        // if (i-1 === vowel) {
-        //   output.push(i);
-        // } else if ((i === "e") && (i+1 === " ")) {
-        //   output.push(i);
+        // if ((i === "e") && (i+1 === " ")) {
+        // } else if (i-1 === vowel) {
         // } else if (i+1 === vowel) {
-        //   output.push(i);
         //   syllable +=1;
         // } else if (i+1 != vowel) {
-        //   output.push(i);
         //   syllable +=1;
       } else {
       }

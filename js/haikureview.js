@@ -6,14 +6,12 @@ export class Poem {
   }
 
   isEmpty() {
-    let poem = new Poem(input1,input2,input3);
-    input1 = document.forms['haiku-form']['answer_input1'].value;
-    input2 = document.forms['haiku-form']['answer_input2'].value;
-    input3 = document.forms['haiku-form']['answer_input3'].value;
-    // let line = [];
-    // for (let i = 1; i < p.length; i++){
-    if (input1 == null || input1 == "", input2 == null || input2 == "", input3 == null || input3 == ""){
-      alert("Please enter three lines, hitting 'enter' after lines 1 & 2.");
+    let poem = new Poem(this.input1,this.input2,this.input3);
+    input1 = document.getElementById('input1').value;
+    input2 = document.getElementById('input2').value;
+    input3 = document.getElementById('input3').value;
+    if (input1 === "" || input2 === "" || input3 === ""){
+      alert("You need to enter three lines!");
       return false;
     } else {
       return true;
