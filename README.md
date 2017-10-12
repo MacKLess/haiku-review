@@ -2,7 +2,7 @@
 
 #### _Epicodus Two Day Project JavaScript Week 1, 10/11/17_
 
-#### _**L. Devin MacKrell**_
+#### _**L. Devin MacKrell & Luciano Oliveira**_
 
 ## Description
 
@@ -25,11 +25,11 @@ _An app that determines whether an inputted poem is a haiku. If it meets the hai
 * _If an "e" ends a word, it will not be counted._
 * _When a vowel follows another vowel in a word, it will not be counted._
 * _The number of vowels = the number of syllables._
-* _If the syllables do not equal 17, return "this is not a haiku."_
+* _If there are more or less than three lines, return "this is not a haiku."_
 * _If there are 17 syllables in the input, the input will be returned in the following format: 5, 7, 5._
-* _Syllables 1-5 will be returned in the first line._
-* _Syllables 6-12 will be returned in the second line._
-* _Syllables 13-17 will be returned in the third line._
+* _Syllables 1-5 will be in the first line._
+* _Syllables 6-12 will be in the second line._
+* _Syllables 13-17 will be in the third line._
 
 ## Bugs
 
@@ -37,7 +37,7 @@ _There are no known bugs._
 
 ## Support and contact details
 
-_Please contact [ldmackrell@gmail.com](mailto:ldmackrell@gmail.com) with questions, comments, or issues, or if you would like to contribute to the code._
+_Please contact [ldmackrell@gmail.com](mailto:ldmackrell@gmail.com) or [luciano101@msn.com](mailto:luciano101@gmail.com) with questions, comments, or issues, or if you would like to contribute to the code._
 
 ## Technologies Used
 
@@ -48,7 +48,7 @@ _Please contact [ldmackrell@gmail.com](mailto:ldmackrell@gmail.com) with questio
 
 ### License
 
-Copyright (c) 2017 **L. Devin MacKrell**
+Copyright (c) 2017 **L. Devin MacKrell & Luciano Oliveira**
 
 *Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
