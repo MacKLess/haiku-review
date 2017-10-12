@@ -1,4 +1,4 @@
-import { Haiku }  from './../js/haikureview.js';
+import { Poem }  from './../js/haikureview.js';
 
 $(document).ready(function() {
   $('haiku-form').submit(function(event) {
@@ -16,7 +16,7 @@ $(document).ready(function() {
   //   });
   // });
   // I want the final product (if the input is a haiku) to look like this:
-  const multiLineString = `${line1}
+  const output = returnedPoem.haiku `${line1}
   ${line2}
   ${line3}`;
 });

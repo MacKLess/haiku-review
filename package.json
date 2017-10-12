@@ -4,7 +4,7 @@
   "description": "App reviews if text can be a haiku",
   "main": "index.html",
   "scripts": {
-    "test": "karma start karma.conf.js"
+    "test": "nyc karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -39,7 +39,12 @@
     "karma-jasmine": "^1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-jquery": "^0.2.2",
+    "nyc": "^11.2.1",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "karma-coverage": "^1.1.1",
+    "save-dev": "^2.0.0"
   }
 }
